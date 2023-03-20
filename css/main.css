@@ -674,7 +674,7 @@ footer a:hover {
     body {
         /* width: 100%; */
         overflow-x: hidden;
-        background-color: #24e2d2;
+        /* background-color: #24e2d2; */
     }
 
     .nav-top {
@@ -683,16 +683,16 @@ footer a:hover {
     }
 
     .nav-top--left-links {
-        background-color: #8fbbe4d5;
+        background-color: rgb(245, 238, 230);
         position: absolute;
         top: 80px;
-        padding: 10px;
+        padding: 8px;
         /* left: 0; */
         right: 0;
-        width: 50%;
+        width: 55%;
         display: block;
-        transition: 0.5s ease-in-out;
-        transform: translateY(-130%);
+        transition: 0.2s ease-in-out;
+        transform: translateX(100%);
 
         opacity: 0;
 
@@ -702,16 +702,19 @@ footer a:hover {
     }
 
     .show {
-        transform: translateY(0%);
+        transform: translateX(0%);
         opacity: 1;
         z-index: 9;
     }
 
     .nav-top--left-links li {
-        background-color: antiquewhite;
-        margin: 20px;
+        /* background-color: antiquewhite; */
+        margin: 20px auto;
+        width: 50%;
+    
         text-align: center;
-        padding: 10px 15px;
+        padding: 5px 15px;
+        font-size: 1.2rem;
         /* display: none; */
 
     }
@@ -747,10 +750,10 @@ footer a:hover {
 
     .icon1 {
         display: block;
-        padding: 5px 5px;
-        background-color: aliceblue;
-        border: 4px solid black;
-        border-radius: 10px;
+        padding: 2px;
+        /* background-color: aliceblue; */
+        /* border: 1px solid rgba(0, 0, 0, 0.555);
+        border-radius: 10px; */
     }
 
     .hero-section--img {
@@ -775,7 +778,7 @@ footer a:hover {
     }
 
     .image-contant2 {
-        background-color: #ee930b;
+        background-color: #ee9a1dbd;
         width: 90vw;
         height: auto;
         display: grid;
@@ -793,7 +796,7 @@ footer a:hover {
         margin: 10px 0px;
     }
 
-    .img2 {
+    .img4 {
 
         height: 250px;
     }
@@ -807,7 +810,7 @@ footer a:hover {
 
     .image-contant4 {
 
-        background-color: rgb(179, 255, 0);
+        background-color: rgba(206, 245, 115, 0.753);
         width: 90vw;
         height: auto;
         margin: auto;
@@ -838,7 +841,7 @@ footer a:hover {
     }
 
     .image-contant6 {
-        background-color: #24e2d2;
+        background-color: #24e2d2d5;
         width: 90vw;
         height: auto;
         margin: auto;
